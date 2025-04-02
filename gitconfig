@@ -11,6 +11,8 @@
 
 [diff] 
 	tool = vscode
+[color]
+	ui =auto
 
 [push]
 	autoSetupRemote = true

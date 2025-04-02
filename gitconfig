@@ -1,0 +1,16 @@
+[user]
+	email = simon.dierickx@ugent.be
+	name = Simon Dierickx
+[pager]
+	branch = false
+[core]
+	editor = code
+	
+[merge]
+	tool = vscode
+
+[diff] 
+	tool = vscode
+
+[push]
+	autoSetupRemote = true

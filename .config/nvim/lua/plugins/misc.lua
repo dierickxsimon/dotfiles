@@ -45,4 +45,8 @@ return {
 			require("colorizer").setup()
 		end,
 	},
+	{
+		-- enable auto tag for html tags
+		"windwp/nvim-ts-autotag",
+	},
 }

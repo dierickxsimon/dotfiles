@@ -27,14 +27,14 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	require("plugins.neotree"), --for file tree on the left
 	require("plugins.colortheme"), -- for nice colors
-	require("plugins.bufferline"),
-	require("plugins.lualine"),
-	require("plugins.treesitter"),
-	require("plugins.telescope"),
-	require("plugins.lsp"),
-	require("plugins.autocompletion"),
-	require("plugins.autoformatting"),
-	require("plugins.gitsigns"),
-	require("plugins.indent-blankline"),
-	require("plugins.misc"),
+	require("plugins.bufferline"), -- for tabs on top of nvim and to switch betweeen tabs
+	require("plugins.lualine"), -- the status bar in the footer of the IDE
+	require("plugins.treesitter"), -- makes nice colors in the IDE
+	require("plugins.telescope"), -- the telescope opens a modal to search in files/definitions/ect ...
+	require("plugins.lsp"), -- language server to serve all different languages
+	require("plugins.autocompletion"), -- autocomplete shit
+	require("plugins.autoformatting"), -- auto format shit on save
+	require("plugins.gitsigns"), --add git signs in file and everywhere else
+	require("plugins.indent-blankline"), --ensure indents that are correct
+	require("plugins.misc"), -- all small plugins that i don't know where to put``
 })

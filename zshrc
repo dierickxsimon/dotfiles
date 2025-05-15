@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 . "$HOME/.local/bin/env"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
-export DISPLAY=127.0.0.1:0.0
+export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
 source "$HOME/scripts/dotfiles_backup.sh"
